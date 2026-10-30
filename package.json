@@ -1,0 +1,9 @@
+{
+  "name": "botsalpha-bridge-clean",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Puente sin firma para solicitudes de Binance Futuros ya firmadas por BotsAlpha",
+  "engines": { "node": "22.x" },
+  "scripts": { "start": "node server.cjs" },
+  "dependencies": {}
+}
