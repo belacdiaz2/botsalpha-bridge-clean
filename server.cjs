@@ -1,4 +1,14 @@
 
+
+
+
+
+
+Inicio
+
+
+
+Editar con el chat
 BotsAlpha
 BotsAlpha
 
@@ -13,13 +23,13 @@ El motivo no son tus llaves: Binance rechaza las conexiones desde la región don
 El motor programado sí está encendido y corre cada 5 minutos, pero sin configuración activa no ejecuta nada.
 Para que opere de verdad hay que apuntar el motor a un exchange al que este servidor sí llegue (MEXC, BingX, Gate u OKX responden bien) o pasar por un puente propio fuera de EE. UU. Dime por cuál te vas y lo dejo operando.
 
-4 hours ago
+5 hours ago
 
 
 Tu mensaje
 Y si agregamos un vpn?
 
-4 hours ago
+5 hours ago
 
 
 Revertir
@@ -36,13 +46,13 @@ Si no tienes un servidor propio, lo pragmático es operar en MEXC o BingX, que s
 
 ¿Tienes un VPS o servidor fuera de EE. UU.? Si sí, te dejo la app lista para pegar la URL del puente.
 
-4 hours ago
+5 hours ago
 
 
 Tu mensaje
 No , estoy operando en Binance ,cómo podemos hacer
 
-4 hours ago
+5 hours ago
 
 
 Revertir
@@ -60,13 +70,13 @@ VPS barato fuera de EE. UU. (Europa o Latinoamérica, ~5 USD/mes): lo más estab
 Tu propia PC en Venezuela con un túnel (Cloudflare Tunnel, gratis): Binance vería tu IP de casa, pero la PC debe quedar encendida mientras el bot opere.
 Dime cuál prefieres y te doy el script exacto del puente para pegarlo, más el token que debe llevar.
 
-4 hours ago
+5 hours ago
 
 
 Tu mensaje
 Dónde puedo adquirir un servidor en namecheap?
 
-4 hours ago
+5 hours ago
 
 
 Revertir
@@ -85,13 +95,13 @@ Contabo → Alemania: la más barata, ~5 USD/mes.
 Vultr / DigitalOcean → Frankfurt, Ámsterdam o São Paulo, ~6 USD/mes, aceptan cripto.
 Elige el plan más pequeño (1–2 GB de RAM sobra) con Ubuntu 22.04 o 24.04. Cuando lo tengas con su IP, te paso el puente listo para pegar y lo conectamos a la app.
 
-4 hours ago
+5 hours ago
 
 
 Tu mensaje
 Que requiero un hostin
 
-4 hours ago
+5 hours ago
 
 
 Revertir
@@ -104,13 +114,13 @@ Lo que necesitas es un VPS: un servidor virtual con acceso root donde se instala
 
 Con el VPS te dan una IP; si además quieres HTTPS limpio, conviene un dominio barato apuntando a esa IP (también sirve la IP, pero un dominio es más seguro y estable).
 
-4 hours ago
+5 hours ago
 
 
 Tu mensaje
 https://binance-bridge-o4pu.onrender.com
 
-2 hours ago
+3 hours ago
 
 
 Revertir
@@ -124,13 +134,13 @@ Probé tu puente: responde en la raíz, pero /fapi/v1/... devuelve 404, así que
 
 Te dejé en la app el archivo binance-bridge.md con los dos archivos exactos para pegarlos en Render (el proxy de /fapi/*), la región a elegir (Frankfurt) y la prueba rápida para confirmar con {"code":0,...}.
 
-2 hours ago
+3 hours ago
 
 
 Tu mensaje
 Ya cambié los archivos en Render, prueba el puente de nuevo
 
-2 hours ago
+3 hours ago
 
 
 Revertir
@@ -144,13 +154,13 @@ Dos detalles: no tiene token configurado en Render (acepta cualquier petición, 
 
 Ahora pega https://binance-bridge-o4pu.onrender.com en Configuración → URL del puente, guarda, y el bot podrá operar.
 
-2 hours ago
+3 hours ago
 
 
 Tu mensaje
 Listo y shora
 
-2 hours ago
+3 hours ago
 
 
 Revertir
@@ -167,13 +177,13 @@ Token: solo si pusiste BRIDGE_TOKEN en Render; si no, déjalo vacío.
 API Key y Secret de Binance Futuros (sin permiso de retiros).
 Luego Guardar y aplicar cambios y por último Iniciar bot. Ojo: espera ~30 minutos desde mis pruebas, porque Binance tiene esa IP en pausa por exceso de peticiones.
 
-2 hours ago
+3 hours ago
 
 
 Tu mensaje
 Ya guardé la URL y las llaves, revisa si conecta
 
-an hour ago
+2 hours ago
 
 
 Revertir
@@ -197,13 +207,13 @@ Probado de punta a punta: el puente responde bien desde el servidor de la app, p
 
 Dos cosas: ahora el error aparece justo debajo del botón Guardar, y en Binance revisa que la llave tenga activado Enable Futures (y sin restricción de IP, o con la IP 74.220.51.161). Luego guarda otra vez.
 
-an hour ago
+2 hours ago
 
 
 Tu mensaje
 Ya activé el permiso de Futuros, guarda de nuevo y prueba
 
-an hour ago
+2 hours ago
 
 
 Revertir
@@ -213,13 +223,13 @@ Checked saved keys and connection
 Respuesta de Base44
 Las llaves solo existen en tu navegador, así que el guardado lo tienes que disparar tú: en Configuración vuelve a pegar API Key y Secret y pulsa Guardar y aplicar cambios. Avísame cuando salga el aviso verde y hago la prueba de conexión, saldo y precio al instante.
 
-an hour ago
+2 hours ago
 
 
 Tu mensaje
 Ya guardé, revisa si conecta ahora y si tiene permiso para futuro pq lo probé con python
 
-an hour ago
+2 hours ago
 
 
 Revertir
@@ -231,26 +241,26 @@ Nada llegó al servidor todavía. Voy a hacer que la app guarde el motivo exacto
 
 
 Actualicé bot Settings
-an hour ago
+2 hours ago
 
 
 Tu mensaje
 Approved.
 
-an hour ago
+2 hours ago
 
 
 Revertir
 Respuesta de Base44
 
 Captured Binance's exact rejection reason
-an hour ago
+2 hours ago
 
 
 Tu mensaje
 Approved
 
-an hour ago
+2 hours ago
 
 
 Revertir
@@ -269,13 +279,13 @@ Ya sé qué pasa: no es Binance ni tus llaves. Los precios sí pasan por el puen
 
 Arreglo: en Render → tu servicio → pestaña del proyecto → reemplaza index.js por el de la guía (la app ya firma sola; el puente solo reenvía) y haz Redeploy. Avisas y pruebo de inmediato.
 
-an hour ago
+2 hours ago
 
 
 Tu mensaje
 Cuál es el de la guía?
 
-an hour ago
+2 hours ago
 
 
 Revertir
@@ -321,13 +331,13 @@ app.get('/', (req, res) => res.send('Puente Binance Activo y Operativo'));
 app.listen(PORT, () => console.log('Puente escuchando en ' + PORT));
 Clave: que no quede nada de crypto ni BINANCE_SECRET ahí. Avísame cuando termine el deploy y pruebo.
 
-an hour ago
+2 hours ago
 
 
 Tu mensaje
 Ya hice el deploy, prueba la conexión otra vez
 
-38 minutes ago
+2 hours ago
 
 
 Revertir
@@ -345,13 +355,13 @@ Rápido (1 campo): en Render → Environment → añade la variable BINANCE_SECR
 Correcto: si el servicio dice "Deploys from GitHub", el archivo se edita en el repo de GitHub, no en Render (el que arranca es el que apunta package.json → main). Reemplaza ahí el contenido por el código que te pasé y haz commit.
 Dime cuando esté y vuelvo a probar.
 
-38 minutes ago
+2 hours ago
 
 
 Tu mensaje
 Reemplace el código en elmpqckage Jason
 
-27 minutes ago
+2 hours ago
 
 
 Revertir
@@ -382,13 +392,13 @@ y el código del puente va en un archivo aparte llamado index.js.
 
 Dime cuál hiciste y pruebo de nuevo.
 
-26 minutes ago
+2 hours ago
 
 
 Tu mensaje
 Listo
 
-21 minutes ago
+an hour ago
 
 
 Revertir
@@ -408,13 +418,13 @@ Con eso el puente firma bien (usa la misma clave que tú, así que la firma coin
 
 Si prefieres no tocarlo más, también puedo guiarte a borrar ese servicio y crear uno nuevo desde cero en 5 pasos: es más largo pero queda limpio.
 
-20 minutes ago
+an hour ago
 
 
 Tu mensaje
 Vamos hacer un servicio limpio
 
-19 minutes ago
+an hour ago
 
 
 Revertir
@@ -431,13 +441,13 @@ Descomprímelo, sube su contenido a un repositorio nuevo y conéctalo en Render 
 Respuesta de Base44
 
 Actualicé server.cjs, package y 3 más
-17 minutes ago
+an hour ago
 
 
 Tu mensaje
 Ya descargué el paquete, guíame para crear el repositorio nuevo
 
-14 minutes ago
+an hour ago
 
 
 Revertir
@@ -478,13 +488,13 @@ Dos avisos: no compartas el token en el chat ni en la barra de direcciones, y no
 
 Cuando tengas el repositorio subido y el servicio en Live, dime qué muestra /health y seguimos con la prueba de conexión real.
 
-14 minutes ago
+an hour ago
 
 
 Tu mensaje
 Dame los archivos d eotra manera que pueda pegar con copy no descargas
 
-6 minutes ago
+an hour ago
 
 
 Revertir
@@ -614,3 +624,530 @@ if (require.main === module) {
 }
 
 module.exports = { createBridgeServer, VERSION };
+Con esos tres basta: no necesitas README.md. Verifica que package.json y server.cjs queden en la raíz del repositorio y luego conecta Render → New → Blueprint con ese repo.
+
+an hour ago
+
+
+Tu mensaje
+
+Screenshot_20261029-232536.jpg
+Elmreadme apareció solo
+
+an hour ago
+
+
+Revertir
+Respuesta de Base44
+
+Pensó durante 2s
+Es normal: GitHub lo añade solo cuando marcas "Add a README", y no afecta al puente. Tu repositorio está correcto con los cuatro archivos en la raíz, así que sigue con Render → New → Blueprint conectando ese repositorio.
+
+an hour ago
+
+
+Tu mensaje
+
+Screenshot_20261029-232809.jpg
+Que hago en render que
+
+an hour ago
+
+
+Revertir
+Respuesta de Base44
+
+Pensó durante 5s
+Estás en la pantalla correcta; rellena así (o vuelve y usa New → Blueprint, que lo toma todo del archivo render.yaml).
+
+Campos principales
+
+Name: botsalpha-bridge-clean
+Region: Frankfurt (si la instancia gratuita no aparece ahí, elige Singapur)
+Branch: main
+Language/Runtime: Node
+Root Directory: déjalo vacío
+Build Command: npm install --ignore-scripts --no-audit --no-fund
+Start Command: npm start
+Instance Type: Free
+Environment Variables (sección más abajo, "Add Environment Variable")
+
+NODE_VERSION = 22
+BRIDGE_TOKEN = pulsa el botón Generate (genera un valor aleatorio). Debe tener al menos 32 caracteres y sin espacios.
+Advanced
+
+Health Check Path: /health
+Después pulsa Create Web Service y espera a que el estado pase a Live. Ojo: cuando conectes la app deberás copiar exactamente ese token generado, así que no vuelvas a pulsar Generate después.
+
+an hour ago
+
+
+Tu mensaje
+
+Screenshot_20261029-233254.jpg
+Que pongo ahi
+
+an hour ago
+
+
+Revertir
+Respuesta de Base44
+
+Pensó durante 21s
+Pon dos variables, una por fila:
+
+KEY	VALUE
+NODE_VERSION	22
+BRIDGE_TOKEN	pulsa el botón Generate (botón con la varita)
+En la segunda fila deja el campo VALUE vacío y genera el valor automáticamente; no lo escribas a mano ni le pongas espacios. Luego pega el token generado en la app cuando terminemos, así que no vuelvas a generar otro después de crearlo.
+
+No agregues PORT (Render lo asigna solo) ni tampoco claves de Binance.
+
+an hour ago
+
+
+Tu mensaje
+Ya puse las dos variables , que hago , dónde pongo el token y de dónde lo saco
+
+an hour ago
+
+
+Revertir
+Respuesta de Base44
+
+Pensó durante 4s
+El token lo genera Render, y lo lees dentro del servicio: no se saca de Binance ni de la app.
+
+1. Termina de crear el servicio Pulsa Create Web Service (si aún no lo hiciste) y espera a que el estado sea Live. Arriba verás la dirección, del tipo https://botsalpha-bridge-clean.onrender.com. Esa es tu URL del puente.
+
+2. Copia el token En el servicio, abre la pestaña Environment. Ahí aparece la fila BRIDGE_TOKEN con su valor generado: pulsa el icono de ojo / editar y cópialo completo. No lo pegues en el chat.
+
+3. Comprueba que el puente responde En el navegador abre tu dirección agregando /health: https://botsalpha-bridge-clean.onrender.com/health Debe responder ok: true, service: botsalpha-bridge-clean-1 y signing: false. Si sale error 502/503, el servicio aún está arrancando o el Build falló.
+
+4. Pega ambos datos en la app En el panel de BotsAlpha → pestaña Configuración → sección Puente de conexión:
+
+URL del puente: la dirección del servicio, sin /health y sin barra final.
+Token del puente: el BRIDGE_TOKEN copiado. Guarda con el bot detenido, y luego pulsamos la prueba de conexión.
+an hour ago
+
+
+Tu mensaje
+
+Screenshot_20261029-233925.jpg
+El token no se dónde ubicarlo y aparece un error
+
+an hour ago
+
+
+Revertir
+Respuesta de Base44
+
+Leyó 3 archivos
+Respuesta de Base44
+El error casi seguro viene de la configuración, no del código. Revisa estas tres cosas en orden:
+
+1. Dónde está el token Estás en la misma página de Settings. Baja hasta la tarjeta Environment Variables (la que viste antes, con NODE_VERSION y BRIDGE_TOKEN). En la fila de BRIDGE_TOKEN, pulsa el icono del ojo (o el lápiz Edit) para que se vea el valor, y cópialo. Ese es el token que va en la app. Si esa fila no existe o quedó vacía, pulsa Add Environment Variable, escribe BRIDGE_TOKEN como KEY y usa Generate en el VALUE.
+
+2. Revisa los comandos En Settings → Build & Deploy:
+
+Build Command: npm install --ignore-scripts --no-audit --no-fund
+Start Command: npm start
+Health Check Path: /health
+Si tenías yarn / yarn start, cámbialos: sin archivo de bloqueo, esos comandos fallan.
+
+3. Vuelve a desplegar Con el token ya guardado, use Manual Deploy → Deploy latest commit.
+
+Si vuelve a fallar, abre el despliegue en rojo y pulsa Logs: las últimas líneas dicen la causa exacta (por ejemplo, que falta el token o que el comando no existe). Dime el texto del error y te digo qué cambiar, sin compartir el token.
+
+an hour ago
+
+
+Tu mensaje
+
+Screenshot_20261029-234456.jpg
+Carajo no consigo nada de lo que dices
+
+44 minutes ago
+
+
+Revertir
+Respuesta de Base44
+
+Leí la web
+Respuesta de Base44
+Perdón por la confusión; vamos con un solo paso, mirando tu captura. Toca las tres rayitas ☰ arriba a la izquierda, justo debajo de la casita del navegador, y mándame una captura del menú que se abra, sin mostrar claves ni tokens.
+
+44 minutes ago
+
+
+Tu mensaje
+
+Screenshot_20261029-234632.jpg
+Ya abrí el menú, esta es la captura
+
+42 minutes ago
+
+
+Revertir
+Respuesta de Base44
+Toca Environment en la sección MANAGE, justo debajo de Compute; no el «Environment» de arriba.
+
+Después busca BRIDGE_TOKEN. Si envías otra captura, oculta su valor y cualquier otra clave.
+
+42 minutes ago
+
+
+Tu mensaje
+
+Screenshot_20261029-234900.jpg
+Ya entré en Environment, ¿qué hago ahora?
+
+40 minutes ago
+
+
+Revertir
+Respuesta de Base44
+
+Leyó 2 archivos
+Respuesta de Base44
+Estás en el lugar correcto; no necesitas pulsar Edit:
+
+En la primera fila, donde dice «BRI…», toca el icono de dos cuadrados, justo a la izquierda del ojo.
+Vuelve a BotsAlpha → Configuración → Puente de conexión y pega lo copiado en Token del puente.
+No compartas ese valor aquí ni inicies el bot todavía.
+
+40 minutes ago
+
+
+Tu mensaje
+No hay nada que diga puente de conexión
+
+37 minutes ago
+
+
+Revertir
+Respuesta de Base44
+Voy a revisar dónde aparece esa sección en la pantalla del móvil.
+
+
+Revisé tu app
+Respuesta de Base44
+Lo comprobé: en el móvil queda más abajo; abre Configuración dentro de BotsAlpha (no en Render) y desliza hacia arriba hasta pasar Credenciales de Binance, donde aparecen URL del puente y Token del puente, como muestra la captura.
+
+36 minutes ago
+
+
+Tu mensaje
+
+Screenshot_20261029-235408.jpg
+Hay una lista de ce cosas que es lo que voy a buscar
+
+34 minutes ago
+
+
+Revertir
+Respuesta de Base44
+Busca Environment (Entorno) en la lista del menú ☰, arriba a la izquierda; dentro de esa sección busca la variable BRIDGE_TOKEN, no en «General».
+
+34 minutes ago
+
+
+Tu mensaje
+Eso yablo hice y copié el bridge donde lo pego que no me dices con precidion
+
+33 minutes ago
+
+
+Revertir
+Respuesta de Base44
+Voy a mostrarte el campo exacto donde debes pegarlo.
+
+
+Aplicación verificada — Mostrar dónde pegar el token
+Respuesta de Base44
+En BotsAlpha → Configuración, pégalo en «Token del puente»: es el recuadro que dice «Token» en la imagen, justo debajo de «URL del puente», no en las credenciales de Binance.
+
+Después pulsa el botón verde «Guardar y aplicar cambios».
+
+32 minutes ago
+
+
+Tu mensaje
+
+Screenshot_20261029-235926.jpg
+Pero yo veo que hay un error en ese revisor , no me dices que es el error
+
+29 minutes ago
+
+
+Revertir
+Respuesta de Base44
+El mensaje indica que se agotó el tiempo de espera; revisaré qué conexión está fallando.
+
+
+Revisé tu app
+Respuesta de Base44
+Tienes razón: “The operation was aborted due to timeout” significa que, al guardar, la app esperó 15 segundos una respuesta del puente y canceló la conexión porque no llegó a tiempo. No demuestra que el token esté mal; todavía no está confirmado por qué el puente no respondió a tiempo.
+
+29 minutes ago
+
+
+Tu mensaje
+
+Screenshot_20261030-000036.jpg
+Cómo se corrige ese error para que arranque elmservidorn
+
+28 minutes ago
+
+
+Revertir
+Respuesta de Base44
+Voy a revisar los archivos del puente para detectar qué hace fallar la compilación.
+
+
+Leyó 3 archivos
+Respuesta de Base44
+El despliegue falló en la compilación, así que el servicio quedó caído: por eso la app esperó 15 segundos y cortó ("timeout"). Voy a quitar del plano todo lo que puede fallar al compilar, porque el puente no necesita instalar nada.
+
+
+Actualicé render.yaml y README
+Respuesta de Base44
+El error de la app y el "Failed" de Render son el mismo problema: el servicio nunca arrancó, así que al guardar la app esperó 15 segundos y cortó.
+
+Lo que dejé listo en el plano del puente:
+
+Build sin dependencias: el servicio no instala nada; antes fallaba justo en ese paso. Ahora arranca directamente con node server.cjs.
+Guía nueva con las causas típicas y cómo leer el registro rojo, más el aviso de que la instancia gratuita duerme y puede dar timeout al despertar.
+Pasos para levantarlo:
+
+Sube el render.yaml actualizado al repositorio (raíz, sin carpeta contenedora).
+En Render, pulsa Manual Deploy → Clear build cache & deploy.
+Cuando diga Live, abre https://botsalpha-bridge-clean.onrender.com/health y espera ok: true. Ese primer acceso despierta la instancia.
+Recién entonces guarda la configuración en BotsAlpha.
+Si vuelve a fallar, la línea roja del registro dice el motivo exacto; pásame ese texto y lo corrijo.
+
+27 minutes ago
+
+
+Tu mensaje
+Hay un problema en la configuración nobsrranca
+
+22 minutes ago
+
+
+Revertir
+Respuesta de Base44
+Respuesta de Base44
+Voy a revisar qué está bloqueando la configuración y el arranque, sin activar operaciones.
+
+
+Revisé tu app
+Respuesta de Base44
+El guardado se bloqueaba al intentar conectar; lo separaré de la comprobación y mostraré el error real.
+
+
+Actualicé bot Settings, binance y 3 más
+Respuesta de Base44
+Generación detenida. Puedes enviar otro mensaje cuando estés listo.
+20 minutes ago
+
+
+Tu mensaje
+
+Screenshot_20261030-000851.jpg
+Ese es el problema
+
+20 minutes ago
+
+
+Revertir
+Respuesta de Base44
+Respuesta de Base44
+La captura muestra que el puente se cae al arrancar; revisaré cómo está configurado su inicio.
+
+
+Revisé tu app
+Respuesta de Base44
+La captura no muestra la causa exacta; el puente se detiene si su token falta o es demasiado corto.
+
+Respuesta de Base44
+Comprobar
+
+20 minutes ago
+
+
+Tu mensaje
+Cómo está ? A qué te refires
+
+15 minutes ago
+
+
+Revertir
+Respuesta de Base44
+
+Pensó durante 5s
+Me refiero a la variable BRIDGE_TOKEN del servicio en Render. El registro de tu captura muestra "Exited with status 1" justo después de "Running 'npm start'": el puente arranca y se detiene al instante, y el único motivo por el que nuestro código se detiene solo al iniciar es que esa variable no exista o tenga menos de 32 caracteres (también pasaría si el archivo no está en la raíz del repositorio y no lo encuentra).
+
+Falta ver la línea real del error: en esos logs desplázate hacia abajo, hasta después de la hora 12:05:03, o usa el buscador con "Error" o "Cannot find". Esa línea dice la causa exacta; el estado "Exited" no la dice.
+
+15 minutes ago
+
+
+Tu mensaje
+
+Screenshot_20261030-001743.jpg
+Te paso la línea del error que sale en los logs de Render
+
+11 minutes ago
+
+
+Revertir
+Respuesta de Base44
+La captura muestra un error de sintaxis con «respuesta»; revisaré el puente, no las claves.
+
+
+Origen del fallo revisado
+Respuesta de Base44
+El error indica que el código desplegado no puede arrancar, no que fallen las claves; el puente disponible aquí pasa la comprobación y no contiene «respuesta».
+
+10 minutes ago
+
+
+Tu mensaje
+Fue un copy ,dime cuál de los tres
+
+10 minutes ago
+
+
+Revertir
+Respuesta de Base44
+
+Tres archivos revisados
+Respuesta de Base44
+Es server.cjs: el único de los tres con JavaScript, y ese error de sintaxis solo puede venir de ahí (un problema en package.json diría «JSON.parse» y uno en render.yaml sería un error de Blueprint, no de Node). El archivo preparado compila sin errores y no contiene «respuesta» ni caracteres especiales, así que lo que se pegó en Render perdió comillas o llaves al copiarse.
+
+Súbelo con «Add file → Upload files» en GitHub en vez de pegarlo, y luego Manual Deploy.
+
+9 minutes ago
+
+
+Tu mensaje
+Pero dónde es el error en Github?
+
+7 minutes ago
+
+
+Revertir
+Respuesta de Base44
+
+Referencia del archivo lista
+Respuesta de Base44
+El error está en server.cjs, y su línea exacta está en el propio registro de Render: justo encima de SyntaxError aparece una ruta con :número (por ejemplo /opt/render/project/src/server.cjs:41). Ese número es la línea que debes mirar en GitHub (la que sale marcada en rojo en el bloque del error).
+
+Compárala con el archivo correcto: debe tener 87 líneas, empezar por const http = require('node:http'); y terminar en module.exports = { createBridgeServer, VERSION };. Si el tuyo tiene más, menos, o no termina así, el texto se cortó al pegarlo.
+
+7 minutes ago
+
+
+Tu mensaje
+Eso es imposible ubicar eso
+
+6 minutes ago
+
+
+Revertir
+Respuesta de Base44
+
+Requisitos del puente revisados
+Respuesta de Base44
+Te doy el puente en una versión más corta para que la reemplaces completa, sin buscar ninguna línea.
+
+
+Creé server.cjs
+Respuesta de Base44
+No hay que ubicar nada: se reemplaza todo el archivo.
+
+En GitHub abre server.cjs → botón del lápiz (Edit).
+Toca dentro del texto y usa Seleccionar todo (o Ctrl+A / ⌘+A) y bórralo.
+Pega el archivo nuevo que ya te dejé listo (62 líneas, sin tildes ni símbolos raros) → Commit changes.
+En Render, Manual Deploy → Deploy latest commit.
+package.json y render.yaml no se tocan. Cuando esté Live, abre la dirección con /health y debe decir ok: true y botsalpha-bridge-clean-2.
+
+6 minutes ago
+
+
+Tu mensaje
+Cuál archivo me diste dame el copy
+
+3 minutes ago
+
+
+Revertir
+Respuesta de Base44
+
+Pensó durante 5s
+El archivo es server.cjs. Cópialo completo, borrando primero todo lo que tenga el de GitHub:
+
+const http = require('node:http');
+const crypto = require('node:crypto');
+
+const VERSION = 'botsalpha-bridge-clean-2';
+const UPSTREAM = 'https://fapi.binance.com';
+const MAX_BODY = 64 * 1024;
+
+function send(res, status, data) {
+  res.writeHead(status, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+  res.end(JSON.stringify(data));
+}
+
+function tokenOk(value, token) {
+  if (typeof value !== 'string' || !token) return false;
+  const a = Buffer.from(value);
+  const b = Buffer.from(token);
+  return a.length === b.length && crypto.timingSafeEqual(a, b);
+}
+
+const server = http.createServer(async (req, res) => {
+  const path = (req.url || '').split('?')[0];
+  if (req.method === 'GET' && (path === '/' || path === '/health')) {
+    return send(res, 200, { ok: true, service: VERSION, signing: false });
+  }
+  if (!/^\/fapi\/v[123]\/[A-Za-z][A-Za-z0-9/]*$/.test(path)) {
+    return send(res, 404, { msg: 'Ruta no disponible' });
+  }
+  if (!tokenOk(req.headers['x-bridge-token'], process.env.BRIDGE_TOKEN || '')) {
+    return send(res, 401, { msg: 'Token del puente invalido' });
+  }
+
+  try {
+    const chunks = [];
+    for await (const chunk of req) {
+      chunks.push(chunk);
+      if (chunks.length && Buffer.concat(chunks).length > MAX_BODY) {
+        return send(res, 413, { msg: 'Solicitud demasiado grande' });
+      }
+    }
+    const body = Buffer.concat(chunks);
+    const headers = {};
+    if (req.headers['x-mbx-apikey']) headers['X-MBX-APIKEY'] = req.headers['x-mbx-apikey'];
+    if (body.length) headers['Content-Type'] = 'application/x-www-form-urlencoded';
+
+    const upstream = await fetch(UPSTREAM + req.url, {
+      method: req.method,
+      headers,
+      body: req.method === 'GET' || !body.length ? undefined : body,
+      redirect: 'manual',
+    });
+    const text = await upstream.text();
+    res.statusCode = upstream.status;
+    res.setHeader('Content-Type', upstream.headers.get('content-type') || 'application/json');
+    res.setHeader('Cache-Control', 'no-store');
+    res.end(text);
+  } catch (error) {
+    send(res, 502, { msg: 'No se pudo conectar con Binance' });
+  }
+});
+
+server.listen(Number(process.env.PORT || 10000), '0.0.0.0', () => {
+  console.log(VERSION + ' escuchando en el puerto ' + (process.env.PORT || 10000));
+});
